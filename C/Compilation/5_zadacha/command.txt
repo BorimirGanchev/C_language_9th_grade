@@ -1,0 +1,4 @@
+gcc -c maths.c
+ar -rc libmaths.a maths.o
+gcc -static 5_zadacha.c -L. -lmaths -o fac.exe
+.\fac.exe

@@ -1,0 +1,3 @@
+gcc transformation.c -c -o transformation.o
+gcc 3_zadacha.c transformation.o -o main.exe
+./main.exe

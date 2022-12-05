@@ -1,0 +1,2 @@
+gcc -g 4_zadacha.c -o 4_zadacha
+./4_zadacha
